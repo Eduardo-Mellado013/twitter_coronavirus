@@ -30,7 +30,7 @@ The following PNG files have been generated as a result of the analysis:
 3. **country_coronavirus.png:** A bar graph showing the top 10 countries for tweets containing `#coronavirus`.
 ![#Coronavirus Tweets by Country](img/country_coronavirus.png)
 4. **country_코로나바이러스.png:** A bar graph showing the top 10 countries for tweets containing `#코로나바이러스`.
-![#코로나바이러스 Tweets by Country](img/country_#코로나바이러스.png)
+![#코로나바이러스 Tweets by Country](img/country_코로나바이러스.png)
 Additionally, the alternative reduce step produces a line plot showing daily tweet counts for these hashtags over the year.
 
 This project demonstrates the application of MapReduce techniques to real-world, large-scale social media data, and showcases the ability to work with diverse languages and parallel data processing methods.
