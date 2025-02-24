@@ -31,7 +31,25 @@ The following PNG files have been generated as a result of the analysis:
 ![#Coronavirus Tweets by Country](img/country_coronavirus.png)
 4. **country_코로나바이러스.png:** A bar graph showing the top 10 countries for tweets containing `#코로나바이러스`.
 ![#코로나바이러스 Tweets by Country](img/country_코로나바이러스.png)
-Additionally, the alternative reduce step produces a line plot showing daily tweet counts for these hashtags over the year.
+
+## Alternative Reduce Line Plots
+
+The following line plots were generated using the alternative reduce procedure. Each plot shows the daily tweet counts for the respective hashtags over 2020, with the x-axis representing the day of the year and the y-axis representing the number of tweets.
+
+### Plot for `#coronavirus`
+![#coronavirus Tweets by Day](img/coronavirus_lineplot.png)
+**Description:**  
+This plot shows the daily tweet counts for the hashtag `#coronavirus` in English. It highlights how the volume of tweets containing this hashtag fluctuated over the year, reflecting public interest and discussion trends regarding the coronavirus.
+
+### Plot for `#코로나바이러스`
+![#코로나바이러스 Tweets by Day](img/코로나바이러스_lineplot.png)
+**Description:**  
+This plot displays the daily tweet counts for the hashtag `#코로나바이러스` in Korean. It provides insights into the usage pattern of the Korean version of the hashtag, illustrating how discussions in Korean evolved over time.
+
+### Combined Plot for `#coronavirus` and `#코로나바이러스`
+![Combined Line Plot](img/coronavirus_코로나바이러스_lineplot.png)
+**Description:**  
+This combined plot overlays the daily tweet counts for both `#coronavirus` and `#코로나바이러스`. It allows for a direct comparison between the English and Korean hashtags, revealing trends and potential differences in the way these hashtags were used throughout the year.
 
 This project demonstrates the application of MapReduce techniques to real-world, large-scale social media data, and showcases the ability to work with diverse languages and parallel data processing methods.
 
