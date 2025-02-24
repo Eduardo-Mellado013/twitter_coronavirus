@@ -1,9 +1,9 @@
 Coronavirus Twitter Analysis
 ============================
 
-This project analyzes geotagged tweets from 2020 to monitor the spread of the coronavirus on social media. It uses a MapReduce framework to process a very large dataset of tweets (approximately 1.1 billion tweets from 2020) to extract meaningful trends about the pandemic. 
+This project analyzes geotagged tweets from 2020 to monitor the spread of the coronavirus on social media. It uses a MapReduce framework to process a very large dataset of tweets (approximately 1.1 billion tweets from 2020) to extract meaningful social media trends relating to the pandemic. 
 
-**Learning Objectives:**
+**Project Learning Objectives:**
 - Work with large-scale datasets.
 - Process multilingual text.
 - Use the MapReduce divide-and-conquer paradigm to write parallel code.
@@ -24,10 +24,13 @@ This project analyzes geotagged tweets from 2020 to monitor the spread of the co
 
 The following PNG files have been generated as a result of the analysis:
 1. **lang_coronavirus.png:** A bar graph showing the top 10 languages for tweets containing `#coronavirus`.
+![#Coronavirus Tweets by Language](img/lang_coronavirus.png)
 2. **lang_코로나바이러스.png:** A bar graph showing the top 10 languages for tweets containing `#코로나바이러스`.
+![#코로나바이러스 Tweets by Language](img/lang_코로나바이러스.png)
 3. **country_coronavirus.png:** A bar graph showing the top 10 countries for tweets containing `#coronavirus`.
+![#Coronavirus Tweets by Country](img/country_coronavirus.png)
 4. **country_코로나바이러스.png:** A bar graph showing the top 10 countries for tweets containing `#코로나바이러스`.
-
+ ![#코로나바이러스 Tweets by Country](img/#코로나바이러스.png)
 Additionally, the alternative reduce step produces a line plot showing daily tweet counts for these hashtags over the year.
 
 This project demonstrates the application of MapReduce techniques to real-world, large-scale social media data, and showcases the ability to work with diverse languages and parallel data processing methods.
